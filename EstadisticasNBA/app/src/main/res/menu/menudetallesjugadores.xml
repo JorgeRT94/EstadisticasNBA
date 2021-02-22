@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnGraficoJugador"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/vacio"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btnActualizarJugador"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/vacio"
+        app:showAsAction="ifRoom" />
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/btnBorrarJugador"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/vacio"
+        app:showAsAction="ifRoom" />
+</menu>

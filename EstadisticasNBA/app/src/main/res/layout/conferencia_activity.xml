@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConferenciaActivity">
+
+    <ImageButton
+        android:id="@+id/btnConferenciaEste"
+        android:layout_width="178dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="@dimen/leftNormalConstraint"
+        android:layout_marginTop="@dimen/topNormalConstraint"
+        android:layout_marginEnd="@dimen/RightNormalConstraint"
+        android:background="@null"
+        android:contentDescription="@string/imagen_de_la_conferencia_este"
+        android:src="@drawable/eastern"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnTrofeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/leftNormalConstraint"
+        android:layout_marginTop="@dimen/topNormalConstraint"
+        android:layout_marginEnd="@dimen/RightNormalConstraint"
+        android:layout_marginBottom="@dimen/bottomNormalConstraint"
+        android:background="@null"
+        android:contentDescription="@string/imagen_del_trofeo_de_la_liga"
+        android:src="@drawable/nba"
+        app:layout_constraintBottom_toTopOf="@+id/btnConferenciaOeste"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConferenciaEste" />
+
+    <ImageButton
+        android:id="@+id/btnConferenciaOeste"
+        android:layout_width="178dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="@dimen/leftNormalConstraint"
+        android:layout_marginEnd="@dimen/RightNormalConstraint"
+        android:layout_marginBottom="@dimen/bottomNormalConstraint"
+        android:background="@null"
+        android:contentDescription="@string/imagen_de_la_conferencia_oeste"
+        android:src="@drawable/western"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

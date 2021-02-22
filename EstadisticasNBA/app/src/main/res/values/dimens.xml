@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="leftNormalConstraint">8dp</dimen>
+    <dimen name="RightNormalConstraint">8dp</dimen>
+    <dimen name="topNormalConstraint">8dp</dimen>
+    <dimen name="bottomNormalConstraint">8dp</dimen>
+    <dimen name="cardMargin">10dp</dimen>
+    <dimen name="tamanioImagen">50dp</dimen>
+    <dimen name="separacionEquipos">150dp</dimen>
+    <dimen name="separacionEditText">100dp</dimen>
+</resources>
